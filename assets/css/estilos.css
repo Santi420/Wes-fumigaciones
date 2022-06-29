@@ -1,3 +1,10 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
 header {
     background-color: #0C1446;
     padding: 0px 0px 0px 0px;
@@ -8,12 +15,6 @@ header {
 
 
 
-
-* {
-    margin: 0px;
-    padding: 0px;
-
-}
 .textoflotante{
     height: 300px;
 }
@@ -22,6 +23,7 @@ header {
 
 .mifooty{
     font-size: 25px;
+    color: #FC883C;
 }
 
 .colorfooter{
@@ -30,6 +32,8 @@ header {
 }
 footer{
     background-color: #0C1446;
+    font-family: 'League Gothic', sans-serif;
+    color: #FC883C;
 }
 
 .estilosfooterpapi{
@@ -44,22 +48,10 @@ justify-content: space-between;
 
 }
 
-.myButton {
-    color: rgb(255, 82, 14); font-size: 15px; line-height: 15px; padding: 7px; border-radius: 20px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: white; box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; border: 2px solid rgb(28, 110, 164); display: inline-block;}
-    .myButton:hover {
-    background: #1C6EA4; }
-    .myButton:active {
-    background: #144E75; }
 
-    .containerbutton{
-        display: flex;
-        justify-content: right;
 
-    }
 
-    .menudesk{
-        display: none;
-    }
+
 
 
 
@@ -69,21 +61,27 @@ header nav ul {
     justify-content: flex-start;
     background-color: #fa892c;
     list-style-type: none;
+    width: 400px;
     border-radius: 30%;
 }
+
 
 .border {
     border: 1px solid red;
 }
 
-
+.textofundacionalii{
+display: block;
+}
 .textofundacional {
 display: none;
 }
 
 
 
-
+.colormaq{
+background-color: #E0D613;
+}
 
 
 .descserv{
@@ -106,9 +104,15 @@ flex-wrap: nowrap;
     text-align: center ;
     margin-top: 15px;
 }
+.pagetitle{
+    font-size: 37px;
+    color: #d672a9
+    ;
+    font-family:'League Gothic', sans-serif;
+}
 .headtitle{
     font-size: 27px;
-    color: antiquewhite
+    color: #d672a9
     ;
     font-family:'League Gothic', sans-serif;
 }
@@ -116,6 +120,7 @@ flex-wrap: nowrap;
 
 #supergrid {
     display: grid;
+    background-color: #d672a9;
     grid-template-areas: 
     "tituloserv tituloserv tituloserv"
     "di dr lt"
@@ -141,7 +146,7 @@ article#tituloserv {
 grid-area: tituloserv;
 height: auto;
 }
-aticle#di{
+article#di{
     grid-area: lt;
 }
 article#dr{
@@ -253,9 +258,6 @@ section div article {
     justify-content: space-between;
 }
 
-.container {
-    border: red solid 2px;
-}
 
 .row {
     border: #274472 2px solid;
@@ -302,8 +304,7 @@ section div h5 {
     display: flex;
     width: 100pxpx;
     height: 300px;
-    border: solid 2px green;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 
@@ -311,9 +312,8 @@ section div h5 {
 .contentii {
     border-radius: 7px;
     background-color: bisque;
-    border: 1px solid darkslategray;
     width: 150px;
-    height: 150px;
+    height: 75px;
     overflow: hidden;
     margin-right: 15px;
     ;
@@ -390,6 +390,10 @@ height: 100px; width: 100px;
         display: block;
     }
 
+    .textofundacionalii{
+        display: none;
+    }
+
     .fotosdeconocenos {
         height: 225px; width: 225px;
         }
@@ -428,8 +432,6 @@ height: 100px; width: 100px;
         
     }
 
-    .myButton {
-    display: none;
-    }
+
 
 }
