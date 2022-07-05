@@ -2,7 +2,6 @@
 <html>
 <head>
     <title>wes fumigaciones</title>
-    <link rel="stylesheet" href="assets/css/estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,73 +10,86 @@
     <script src="https://kit.fontawesome.com/e3f8e58329.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Anek+Latin:wght@100&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="/jquery.slim.min.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="assets/css/estilos.css">
 </head>
 <body>
-    <header>
-        <div><img src="./assets/imagenes/LOGO.png" alt="width 80px" height="80px"></div>
-        <h2 class="headtitle">ni un bicho en tu casa</h2>
+    <header class="headerfooter">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-6"><img src="./assets/imagenes/LOGO.png" height="60px" width="60px" alt=""></div>
+                <div class="col-6 d-flex align-items-center">
+                        <ul>
+                            <li><a class="navbarheader" href="./nuestraempresa/nuestraempresa.html">nuestra empresa</a></li>
+                            <li><a class="navbarheader" href="./maquinaria/maquinaria.html">maquinaria</a></li>
+                            <li><a class="navbarheader" href="./productos/productos.html">productos</a></li>
+                            <li><a class="navbarheader" href="./servicios/servicios.html">servicios</a></li>
+                        </ul>
+                </div>
+            </div>
         </div>
-        <nav class="menudesk">  
-            <ul>
-                <li>
-                <a href="./maquinaria/maquinaria.html">maquinaria</a>
-                </li>
-                <li>
-                <a href="./nuestraempresa/nuestraempresa.html">nuestra empresa</a>
-                </li>
-                <li>
-                <a href="./productos/productos.html">productios</a>
-                </li>
-                <li>
-                <a href="./servicios/servicios.html">servicios</a>
-                </li>
-            </ul>
-        </nav>
-        </section>
     </header>
-    <section class="textoflotante">
-        <img class="fotodepagprinc" src="./assets/imagenes/HD aplicador.jpg" alt="">
-        <h3 class="first-txt">Nuestro servicio hace la diferencia</h3>
-        </section>
-    <section class="parteNuestraEmpresa">
-        <div>
-            <h3>conocenos un poco mas</h3>
-            <article>
-                <p class="textofundacional">
-                    WES FUMIGACIONES fue creada en 1993; su Titular Johana Djetzerniak, está ligada a la actividad de Saneamiento Ambiental desde 1989, participando de otras empresas de similares características.
-                    Basados en la premisa de jerarquizar la actividad, el objetivo que perseguimos es la eficiencia, seguridad, calidad técnica y atención personalizada de cada prestación.
-                    Somos una empresa en crecimiento con rumbo claro y consecuente con nuestros principios fundacionales.
-                    Intentamos brindarle un servicio rápido, eficiente y con el precio acorde a su presupuesto.
-                    Buscamos que nos elija como su proveedor habitual y de entera confianza..."
-                    "Lo invitamos a que conozca quienes somos..."
-                </p>
-                <p class="textofundacionalii">"Deseamos poner en su conocimiento las operatorias y servicios que estamos en condiciones de poder ofrecerle.
-                    SUR FUMIGACIONES fue creada en 1993; su Titular Hugo Higuera, está ligado a la actividad de Saneamiento Ambiental desde 1989, participando de otras empresas de similares características.
-                    Basados en la premisa de jerarquizar la actividad, el objetivo que perseguimos es la mata
-                    "Lo invitamos a que conozca quienes somos..."</p>
-                <img class="fotosdeconocenos" src="./assets/imagenes/jefa.jpg" alt="foto de la dueña">
-                <img class="fotosdeconocenos" src="./assets/imagenes/equipo tecnico.jpg" alt="foto de los operadores">
-            </article>
-            <p>fundadora de wes fumigaciones equipo tecnico dream team de wes fumigaciones</p>
+
+    <section class="container-fluid mt-4">
+        <div class="row">
+            <div class="col-12 mb-0">
+                <div class="card">
+                    <img class="card-img" src="./assets/imagenes/HD aplicador.jpg" height="325px">
+                    <div class="card-img-overlay d-flex justify-content-center align-items-center">
+                        <p class="card-text display-4">nuestro servicio hace la diferencia</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="sectioncortapag d-flex flex-nowrap justify-content-around">
+                    <p class="display-4">empresa habilitada en provincia de BSAS</p><i class="fa-solid fa-file-circle-check"></i>
+                    
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-6 col-xl-6 mb-3 mb-xl-1">
+                <div class="card">
+                    <img class="card-img-top" src="./assets/imagenes/jefa.jpg" height="200px">
+                    <div class="card-body"> "Deseamos poner en su conocimiento las operatorias y servicios que estamos en condiciones de poder ofrecerle.
+                        WES FUMIGACIONES fue creada en 2003; su Titular Johana Djetzerniak, está ligada a la actividad de Saneamiento Ambiental desde 1996, participando de otras empresas de similares características. <a class="linksentext" href="./nuestraempresa/nuestraempresa.html" >conoce más</a> </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-6 col-xl-6 mb-3 mb-xl-1">
+                <div class="card">
+                    <img class="card-img-top" src="./assets/imagenes/aplicador 2.jpg" height="200px">
+                    <div class="card-body">Contamos con un parque de maquinarias actualizado para realizar distintos sistemas de aplicación según la situación lo requiera:
+                        Aspersión manual, mecánica, termonebulización, ultra bajo volumen, espolvoreo, gota controlada y trampeo. <a class="linksentext" href="./servicios/servicios.html">conocer más</a> </div>
+                </div>
+            </div>
+            <div class="col-12 d-flex justify-content-center"><h2>Maquinaria</h2></div>
+            <div class="col-6 col-md-6 col-lg-4 col-xl-4 mb-3 mb-xl-1">
+            <img src="./assets/imagenes/aspersora manual.jpg"  alt="">
+            </div>  
+            <div class="col-12 d-none d-xl-block d-lg-block d-md-block col-md-6 col-lg-4 col-xl-4 mb-3 mb-xl-1">
+                <img src="./assets/imagenes/termo fog.jpg"  alt="">
+            </div>  
+            <div class=" col-12 d-none d-xl-block d-lg-block col-md-6 col-lg-4 col-xl-4 mb-3 mb-xl-1">
+                <img src="./assets/imagenes/motomochila.jpg" alt="">
+            </div>
+            <div class="col-6 col-md-12 col-lg-12 col-xl12">Contamos con un parque de maquinarias actualizado para realizar distintos sistemas de aplicación según la situación lo requiera <a href="./maquinaria/maquinaria.html" class="linksentext">conocer más</a></div>
         </div>
     </section>
-
-    <footer id="colorletrasfooter">
+    <footer>
         <section>
-            <div class="colorfooter">
-                <h3 class="mifooty">Contactanos</h3>
-                <div class="estilosfooterpapi">
-                    <span>4294-0805</span>
-                    <span>11-039-456</span>
-                    <span>instagram</span> 
-                    <span>facebook</span>
-                </div>
-                <div class="estilosfooterpapiimagenes">
-                    <div class="fa fa-phone"></div>
-                    <div class="fa-brands fa-whatsapp"></div>
-                    <div class="fa fa-instagram"></div>
-                    <div class="fa fa-facebook"></div>
-                </div>
+            <div class="headerfooter">
+                    <div class="d-flex justify-content-around">
+                        <span class="navbarheader">4294-0805</span>
+                        <span class="navbarheader">11-039-456</span>
+                        <span class="navbarheader">instagram</span> 
+                        <span class="navbarheader">facebook</span>
+                    </div>
+                    <div class="d-flex justify-content-around">
+                        <i class="fa fa-phone navbarheader"></i>
+                        <i class="fa-brands fa-whatsapp navbarheader"></i>
+                        <i class="fa fa-instagram navbarheader"></i>
+                        <i class="fa fa-facebook navbarheader"></i>
+                    </div>
             </div>
         </section>
     </footer>
