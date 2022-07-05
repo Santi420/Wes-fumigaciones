@@ -32,8 +32,19 @@ a{
 .sectioncortapag{
     background-color: #6fb6df;
     color: black;
-    font-size: 40px;
-    height: 20rem;
+    font-size: 16rem;
+    height: 17rem;
     align-items: center;
+
+}
+
+.sectioncertificates{
+    background-color: #6fb6df;
+    color: black;
+
+}
+
+.maschico{
+    font-size: 10rem;
 
 }
