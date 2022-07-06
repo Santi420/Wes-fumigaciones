@@ -4,8 +4,21 @@
 }
 
 
-ul{
-    display: inline-flex;
+a{
+    color: black;
+}
+
+
+a:hover{
+
+    color: rgb(231, 24, 238);
+}
+.headerfooter{
+    background-color: #000C66;
+}
+
+.linksentext{
+    text-decoration: underline;
 }
 
 li{
@@ -14,17 +27,17 @@ li{
 margin: 0 20px;
 }
 
-a{
-    color: black;
+ul{
+    display: inline-flex;
 }
 
-.linksentext{
-    text-decoration: underline;
+
+.maschico{
+    font-size: 10rem;
+
 }
 
-.headerfooter{
-    background-color: #000C66;
-}
+
 
 .navbarheader{
     color: aliceblue;
@@ -44,7 +57,3 @@ a{
 
 }
 
-.maschico{
-    font-size: 10rem;
-
-}
