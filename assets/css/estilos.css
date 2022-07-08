@@ -4,22 +4,14 @@
 }
 
 
-a{
-    color: black;
-}
 
 
-a:hover{
 
-    color: rgb(231, 24, 238);
-}
 .headerfooter{
     background-color: #000C66;
 }
 
-.linksentext{
-    text-decoration: underline;
-}
+
 
 li{
     display: inline-block;

@@ -1,0 +1,14 @@
+a{
+color: black;
+
+&:hover{
+    color: rgb(231, 24, 238);
+}
+
+}
+
+div{
+    a{
+    text-decoration: underline;
+    }
+}
