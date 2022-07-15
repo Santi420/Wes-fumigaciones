@@ -23,29 +23,3 @@ ul{
     display: inline-flex;
 }
 
-
-.maschico{
-    font-size: 10rem;
-
-}
-
-
-
-.navbarheader{
-    color: aliceblue;
-}
-.sectioncortapag{
-    background-color: #6fb6df;
-    color: black;
-    font-size: 16rem;
-    height: 17rem;
-    align-items: center;
-
-}
-
-.sectioncertificates{
-    background-color: #6fb6df;
-    color: black;
-
-}
-

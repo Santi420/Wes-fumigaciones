@@ -1,14 +1,59 @@
-a{
-color: black;
+@import "./misc/mixins";
+@import "./misc/variables";
 
-&:hover{
-    color: rgb(231, 24, 238);
-}
+
+
+
+a{
+    color: black;
+    text-decoration: underline;
+    
+    &:hover{
+        color: rgb(231, 24, 238);
+    }
+    &.navbarheader{
+        color: aliceblue;
+        text-decoration: none;
+        &:hover{
+            color: map-get($map: $palette, $key:'primary' );
+        }
+    }
 
 }
 
 div{
-    a{
-    text-decoration: underline;
+    .navbarfooter{
+        color: aliceblue;
+        &:hover{
+            color: rgb(231, 24, 238);
+        }
+    }
+    &.bloqueProductos{
+        @include flex(row, start, center);
+    }
+    &.sectioncortapag{
+        background-color: map-get($map: $palette, $key: 'secondary' );
+        color: black;
+        font-size: 14rem;
+        height: 14rem;
+        align-items: center;
+    }
+    .sombrax{
+        color: black;
+        text-shadow: 0.05em 0.05em 0.05em  white
+    }
+    &.sectioncertificates{
+        background-color: #45c7fa;
+        color: black;
+        font-size: 1rem;
+    }
+    i{
+        font-size: 6rem;
+        &.navbarfooter{
+            font-size: 1rem;
+        }
     }
 }
+
+
+
