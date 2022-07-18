@@ -2,16 +2,39 @@
     margin: 0;
     padding: 0;
 }
-
-
-
-
+.navbarheaderN{
+    color: rgb(255, 201, 14);
+    text-decoration: none;
+}
+.navbarheaderM{
+    
+    color: rgb(255, 0, 128);
+    text-decoration: none;
+}
+.navbarheaderP{
+    color: rgb(181, 230, 29);
+    text-decoration: none;
+}
+.navbarheaderS{
+    
+    color: rgb(253, 72, 221);
+    text-decoration: none;
+}
+.form-control{
+    height: 3.5rem;
+}
+.form-group{
+    margin-bottom: 0;
+    height: 3rem;
+}
 
 .headerfooter{
     background-color: #000C66;
 }
 
-
+legend{
+    color: aliceblue;
+}
 
 li{
     display: inline-block;
@@ -22,4 +45,6 @@ margin: 0 20px;
 ul{
     display: inline-flex;
 }
-
+.navbar{
+    padding: 0;
+}

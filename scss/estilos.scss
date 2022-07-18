@@ -3,13 +3,15 @@
 
 
 
-
+.navbar{
+    padding: 0;
+}
 a{
     color: black;
     text-decoration: underline;
     
     &:hover{
-        color: rgb(231, 24, 238);
+        color: rgb(253, 72, 221);
     }
     &.navbarheader{
         color: aliceblue;
@@ -25,7 +27,7 @@ div{
     .navbarfooter{
         color: aliceblue;
         &:hover{
-            color: rgb(231, 24, 238);
+            color: rgb(253, 72, 221);
         }
     }
     &.bloqueProductos{
@@ -37,6 +39,13 @@ div{
         font-size: 14rem;
         height: 14rem;
         align-items: center;
+    }
+    &.pacuandoseachico{
+        background-color: map-get($map: $palette, $key: 'secondary' );
+        color: black;
+        height: 14rem;
+        align-items: center;
+        font-size: 2em;
     }
     .sombrax{
         color: black;
