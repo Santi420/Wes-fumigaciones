@@ -14,9 +14,8 @@
     <meta name="description" content="Empresa radicada en vila real, en el barrio desde su fundacion en el año 2003. Especializada en control de plagas urbanas garantizando eficacia al mejor precio de la zona">
     <meta name="keywords" content="CONTROL DE PLAGAS, FUMIGACION, FUMIGACIÓN, RATAS, HORMIGAS, CUCARACHAS, WASPS, TANQUE, DESINFECCION, DESINSECTACION">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <script src="../jquery.slim.min.js"></script>
+    <script src="../js/jquery.slim.min.js"></script>
     <script src="../js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="../scss/estilos.scss">
     <link rel="stylesheet" href="../assets/css/main.css">
     <link rel="stylesheet" href="../assets/css/estilos.css">
 </head> 
@@ -24,34 +23,41 @@
     <header class="headerfooter">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-6 col-md-6 col-lg-6 col-xl-6 d-none d-md-none d-lg-block d-xl-block "><a href="../index.html"><img src="../assets/imagenes/LOGO.png" height="60px" width="60px" alt=""></a></div>
-                <div class="col-6 col-md-6 col-lg-6 col-xl-6 d-none d-md-none d-lg-flex justify-content-between d-xl-flex align-items-center">
-                    <ul>
-                        <li><a class="navbarheaderN" href="../nuestraempresa/nuestraempresa.html">nuestra empresa</a></li>
-                        <li><a class="navbarheaderM" href="../maquinaria/maquinaria.html">maquinaria</a></li>
-                        <li><a class="navbarheaderP" href="../productos/productos.html">productos</a></li>
-                        <li><a class="navbarheaderS" href="../servicios/servicios.html">servicios</a></li>
-                    </ul>
+                <div class="col-6 col-md-6 col-lg-6 col-xl-6 d-none d-md-flex d-lg-block d-xl-block "><a href="../index.html"><img src="../assets/imagenes/LOGO.png" height="60px" width="60px" alt=""></a></div>
+                <div class="col-6 col-md-6 col-lg-6 col-xl-6 d-none d-md-flex d-lg-flex justify-content-between d-xl-flex align-items-center">
+                        <ul>
+                            <li><a class="navbarheaderN" href="../nuestraempresa/nuestraempresa.html">nuestra empresa</a></li>
+                            <li><a class="navbarheaderM" href="../maquinaria/maquinaria.html">maquinaria</a></li>
+                            <li><a class="navbarheaderP" href="../productos/productos.html">productos</a></li>
+                            <li><a class="navbarheaderS" href="../servicios/servicios.html">servicios</a></li>
+                        </ul>
                 </div>
             </div>
             <div class="row justify-content-between">
-                <div class="col-6 col-md-6 col-lg-6 col-xl-6 d-block d-md-block d-lg-none d-xl-none "><a href="../index.html"><img src="../assets/imagenes/LOGO.png" height="60px" width="60px" alt=""></a></div>
-                
-                <nav class="navbar navbar-light bg-light d-md-flex d-lg-none d-xl-none d-flex">
-                    <div class="container-fluid">
-                        <button class="navbar-toggler ms-auto" type="button" data-mdb-toggle="collapse"
-                        data-mdb-target="#navbarToggleExternalContent3" aria-controls="navbarToggleExternalContent3"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <i class="fas fa-bars"></i>
-                        </button>
-                    </div>
-                </nav>
-                <div class="collapse" id="navbarToggleExternalContent3">
-                    <div class="bg-light shadow-3 p-4">
-                        <button class="btn btn-link btn-block border-bottom m-0">holaaaaaaaaaa 1</button>
-                        <button class="btn btn-link btn-block border-bottom m-0">aaaaaaaaaaaaaaaaaaaaaaaaaaaaa 2</button>
-                        <button class="btn btn-link btn-block m-0">no me funciona no se porque 3</button>
-                    </div>
+                <div class="col-6 col-md-6 col-lg-6 col-xl-6 d-block d-md-none d-lg-none d-xl-none "><a href="../index.html"><img src="../assets/imagenes/LOGO.png" height="60px" width="60px" alt=""></a></div>
+                <div class="col-6 d-flex d-md-none d-lg-none d-xl-none justify-content-end">
+                    <nav class=" d-flex d-md-none d-lg-none d-xl-none navbar navbar-expand-md dark navbar-dark">
+                    <h5 class=" navbarheaderN mr-1">Menu</h5>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                      <ul class="navbar-nav">
+                        <li class="nav-item">
+                          <a class="nav-link" href="../nuestraempresa/nuestraempresa.html">Emprersa</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="../maquinaria/maquinaria.html">Maquinaria</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="../productos/productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../servicios/servicios.html">Servicios</a>
+                          </li>   
+                      </ul>
+                    </div>  
+                  </nav>
                 </div>
             </div>
         </div>
@@ -87,70 +93,66 @@
                 Del mismo modo están preparados profesionalmente para el uso y manipuleo de productos tóxicos.</div>
         </div>
     </div>
-<footer class="headerfooter">
-    <section>
-        <div>
-                <div class="d-flex justify-content-around">
-                    <span class="navbarfooter">4294-0805</span>
-                    <span class="navbarfooter">11-039-456</span>
-                    <span class="navbarfooter">instagram</span> 
-                    <span class="navbarfooter">facebook</span>
-                </div>
-                <div class="d-flex justify-content-around">
-                    <i class="fa fa-phone navbarfooter"></i>
-                    <i class="fa-brands fa-whatsapp navbarfooter"></i>
-                    <i class="fa fa-instagram navbarfooter"></i>
-                    <i class="fa fa-facebook navbarfooter"></i>
-                </div>
-        </div>
-    </section>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="well well-sm">
-                    <form class="form-horizontal" method="post">
-                        <fieldset>
-                            <legend class="text-center header">Contactanos</legend>
-                            <div class="formAreas form-group">
-                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user small"></i></span>
-                                <div class="col-md-8">
-                                    <input id="fname" name="name" type="text" placeholder="Nombre y apellido" class="form-control">
+    <footer class="headerfooter">
+        <section>
+            <div>
+                    <div class="d-flex justify-content-around">
+                        <span class="navbarfooter">4294-0805</span>
+                        <span class="navbarfooter">11-039-456</span>
+                        <span class="navbarfooter">instagram</span> 
+                        <span class="navbarfooter">facebook</span>
+                    </div>
+                    <div class="d-flex justify-content-around">
+                        <i class="fa fa-phone navbarfooter"></i>
+                        <i class="fa-brands fa-whatsapp navbarfooter"></i>
+                        <i class="fa fa-instagram navbarfooter"></i>
+                        <i class="fa fa-facebook navbarfooter"></i>
+                    </div>
+            </div>
+        </section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="well well-sm">
+                        <form class="form-horizontal" method="post">
+                            <fieldset>
+                                <legend class="text-center header">Contactanos</legend>
+                                <div class="form-group mb-4 mt-1">
+                                    <div class="col-md-12">
+                                        <input id="fname" name="name" type="text" placeholder="Nombre y apellido" class="form-control">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="form-group">
-                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-location-pin small"></i></i></span>
-                                <div class="col-md-8">
-                                    <input id="lname" name="name" type="text" placeholder="¿De qué zona sos?" class="form-control">
+                                <div class="form-group mb-4 mt-3">
+                                    <div class="col-md-12">
+                                        <input id="lname" name="name" type="text" placeholder="¿De qué zona sos?" class="form-control">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="form-group">
-                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o small"></i></span>
-                                <div class="col-md-8">
-                                    <input id="email" name="email" type="text" placeholder="Dejanos tu E-mail" class="form-control">
+                                <div class="form-group mb-4 mt-3">
+                                    <div class="col-md-12">
+                                        <input id="email" name="email" type="text" placeholder="Dejanos tu E-mail" class="form-control">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="form-group">
-                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square small"></i></span>
-                                <div class="col-md-8">
-                                    <input id="phone" name="phone" type="text" placeholder="Dejanos tu Nümero telefonoico" class="form-control">
+                                <div class="form-group mb-4 mt-3">
+                                    <div class="col-md-12">
+                                        <input id="phone" name="phone" type="text" placeholder="Dejanos tu Nümero telefonoico" class="form-control">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="form-group">
-                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o small"></i></span>
-                                <div class="col-md-8">
-                                    <textarea class="form-control" id="message" name="message" placeholder="¿Que tipo de servicio estarías estando necesitando?." rows="7"></textarea>
+                                <div class="form-group mb-4 mt-3">   
+                                    <div class="col-md-12">
+                                        <textarea class="form-control" id="message" name="message" placeholder="¿Que tipo de servicio estarías estando necesitando?." rows="7"></textarea>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="form-group">
-                                <div class="col-md-12 text-center">
-                                    <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                                <div class="form-group mb-4 mt-3">
+                                    <div class="col-md-12 text-center">
+                                        <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                                    </div>
                                 </div>
-                            </div>
-                        </fieldset>
-                    </form>
+                            </fieldset>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</footer>
+    </footer>
 </body> 
+</html>
