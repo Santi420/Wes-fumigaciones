@@ -48,3 +48,22 @@ ul{
 .navbar{
     padding: 0;
 }
+.carousel-item .carousel-caption{
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    align-items: center;
+}
+
+.carousel-item .card-text{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
